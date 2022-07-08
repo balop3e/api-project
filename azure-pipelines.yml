@@ -19,7 +19,6 @@ steps:
     ARM_CLIENT_SECRET: $(ARM_CLIENT_SECRET)
     ARM_CLIENT_ID: $(ARM_CLIENT_ID)
 
-steps:
 - task: charleszipp.azure-pipelines-tasks-terraform.azure-pipelines-tasks-terraform-installer.TerraformInstaller@0
   displayName: 'Use Terraform latest'
 
